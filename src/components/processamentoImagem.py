@@ -2,7 +2,7 @@ import streamlit as st
 
 def processamentoImagem():
     with st.container(border=True):
-            st.subheader("1. Adicionar Imagem")
+            st.subheader("Carregar Imagem")
 
             imagem = st.file_uploader(
                 "Selecione uma imagem",
@@ -12,14 +12,14 @@ def processamentoImagem():
 
             st.divider()
 
-            st.subheader("2. Ajustes de Processamento")
+            st.subheader("Ferramentas de Processamento")
 
             contraste = st.toggle("Aumento de contraste")
             ruido = st.toggle("Redução de ruído")
 
             st.divider()
 
-            st.subheader("3. Ações")
+            st.subheader("Operações de Imagem")
 
             processar = st.button(
                 "Processar",

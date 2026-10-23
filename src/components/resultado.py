@@ -35,7 +35,7 @@ def exibicaoResultados(imagem, imagem_processada):
             st.subheader("Segmentação")
 
             with st.container(border=True, height=280):
-                st.caption("A máscara aparecerá aqui.")
+                st.caption("O tumor aparecerá aqui.")
 
         st.divider()
         st.subheader("Classificação")
