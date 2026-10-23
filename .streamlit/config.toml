@@ -1,0 +1,18 @@
+[server]
+port        = 8502
+runOnSave   = true
+maxUploadSize = 200  # MB
+
+[theme]
+base                     = "light"       # "light" ou "dark"
+primaryColor             = "#082f48"     # cor dos botões e destaques
+backgroundColor          = "#eff3f9"     # fundo principal
+secondaryBackgroundColor  = "#FFFFFF"     # fundo da sidebar e containers
+textColor                = "#082f48"     # cor do texto
+font                     = "sans serif"  # "sans serif" | "serif" | "monospace"
+
+[browser]
+gatherUsageStats = false   # desabilita telemetria
+
+[client]
+toolbarMode = "minimal"    # oculta botões extras da interface
